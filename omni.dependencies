@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "omnirom",
+    "repository": "android_packages_apps_SnapdragonCamera2",
+    "target_path": "packages/apps/SnapdragonCamera2",
+    "revision": "android-10"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_external_ant-wireless_antradio-library",
+    "target_path": "external/ant-wireless/antradio-library",
+    "revision": "android-9.0"
+  },
+]
