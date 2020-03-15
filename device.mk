@@ -15,8 +15,8 @@
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay 
+#DEVICE_PACKAGE_OVERLAYS += \
+#    $(LOCAL_PATH)/overlay 
 
 # Lights
 PRODUCT_PACKAGES += \
