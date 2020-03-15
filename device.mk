@@ -15,9 +15,8 @@
 #
 
 # Overlays
-#DEVICE_PACKAGE_OVERLAYS += \
-#    $(LOCAL_PATH)/overlay \
-#    $(LOCAL_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay 
 
 # Lights
 PRODUCT_PACKAGES += \
@@ -25,3 +24,7 @@ PRODUCT_PACKAGES += \
 
 # Inherit from sm6125-common
 $(call inherit-product, device/xiaomi/sm6125-common/sm6125-common.mk)
+
+# QCOM Support
+PRODUCT_BOARD_PLATFORM := sdm665
+PRODUCT_USES_QCOM_HARDWARE := true
